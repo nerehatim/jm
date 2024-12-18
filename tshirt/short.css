@@ -1,0 +1,40 @@
+
+body{background-color: rgb(145, 114, 71);   margin: 0;
+   
+   }
+header{display:inline-block;background-color: azure;width: 100%;font-style: italic;}
+h1{margin-left: 10px;}
+nav{right:20px; position: absolute;top:-4px;}
+a{list-style-type: none;text-decoration:none ;}
+nav ul li{list-style-type:none; display: inline-block;margin:20px;text-decoration: none;font-size: 20px; }
+
+section {display:flex;flex-direction:row;justify-content: space-around;margin: 10px; }
+section div h3{ text-align: center; font-family: inherit;}
+section div form{align-items:center ;}
+nav li:hover{border:2px solid rgb(162, 31, 51);}
+
+div{justify-content: space-around;}
+article {flex-direction: row;justify-content:end;margin:50px;; display: flex;}
+section div img:hover{transform:translate(2px,2px) ;width: 350px;transition: 10s;
+
+}
+h1:hover{ transform: translate(10px);animation-name: exemple; animation-duration: 2s;}
+h1{text-shadow: 2px 3px 10px black;  }
+
+@keyframes exemple{ from{color: rgb(96, 14, 196);}
+to{color: rgb(143, 18, 18);}
+}
+section div:hover{ animation-name: exemple; animation-duration: 2s}
+@keyframes exe{ }
+article:hover{animation-name:exemple;
+animation-duration: 2s;
+}
+@media screen and (max-width:400px) { body{background-color: red;}
+section{display:block ;
+}
+   nav{display: flex;justify-content:center ;flex-direction:row ;}
+   section div img:hover{ width: auto;}
+   section div h3{text-align: start;}
+   article{flex-direction:row;display:flex;justify-content:start;}
+}
+  

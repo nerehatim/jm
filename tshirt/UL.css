@@ -1,0 +1,66 @@
+
+header {
+  border: 2px ridge red;
+  display:flex;
+  width: 100%;
+margin:15px;
+  padding: 20px 10px;
+}
+
+nav li {
+  display:flex;
+  list-style-type: none;
+  padding: 20px 10px;
+  align-items: end;
+  justify-content: space-between;
+  padding-left: 20px;
+  margin: 15px;
+}
+nav {
+  position: absolute;
+  right: 10px;
+  top: -5px;
+  
+}
+div{ 
+border: 2px  ridge orange;
+margin: 10px;
+padding: 10px 10px;
+
+}
+section{ border:  3px ridge green; display: inline-block;margin: 10px; }
+  article{ border: 2px ridge orchid  ; display: inline-block;
+
+
+}
+ aside{  background-color: rgba(0, 0, 0, 0.378); border: 2px ridge rgb(255, 157, 174); 
+padding-right: 20px;
+   display: inline-block;  margin: 7px;justify-content: flex-end;
+ }
+
+footer{ border: 3px ridge red ; border-radius: 15px;  margin: 3px; }
+footer div { margin: 4px;border-radius: 3px ;
+  border: 2px ridge black; display: inline-block;justify-content:space-between; width: 30%;height: 80%; 
+   position: relative; border-radius: 20px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
